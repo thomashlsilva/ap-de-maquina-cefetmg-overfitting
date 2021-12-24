@@ -15,7 +15,7 @@ def cria_modelo(X:pd.DataFrame ,y:pd.Series ,min_samples_split:float):
     """
     #instancia a arvore de decisão (use  a classe DecisionTreeClassifier do Scikitlearn, defina o
     #..parametro min_samples_split e random_state=1 - é muito importante manter a seed fixa para
-    #..que os sejam resultados mantenham sempre o mesmo - reprodutibilidade)
+    #..que os resultados se mantenham sempre os mesmos - reprodutibilidade)
     decision_tree = None
 
     #retone o modelo por meio do método fit
